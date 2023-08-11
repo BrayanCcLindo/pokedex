@@ -1,0 +1,20 @@
+.pokedex {
+  max-inline-size: 24rem;
+  block-size: 38rem;
+  width: 100%;
+  outline: none;
+  position: relative;
+  perspective: 3000px;
+}
+
+.pokedex-main {
+  block-size: inherit;
+  inline-size: inherit;
+  background: var(--primary);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 0.5rem 0.5rem 0 0.5rem;
+  overflow: hidden;
+  padding: 1.5rem;
+}

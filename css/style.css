@@ -1,0 +1,21 @@
+@import url(./index.css);
+@import url(./pokedex.css);
+@import url(./cover.css);
+@import url(./header.css);
+@import url(./lights.css);
+@import url(./stats.css);
+@import url(./screen.css);
+@import url(./actions.css);
+@import url(./navigation.css);
+
+.body {
+  margin: 0;
+  padding: 1rem;
+  color: var(--white);
+  font: var(--body1);
+  background-color: var(--secondary);
+  min-block-size: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

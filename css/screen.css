@@ -1,0 +1,51 @@
+
+
+.screen-border{
+    padding: 1.5rem;
+    padding-block-end: 2.75rem;
+    background: var(--white);
+    border-radius: .5rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 2rem 100%, 0 calc(100% - 2.75rem)) ;
+    position: relative;
+}
+
+.first-point{
+    block-size: 1rem;
+    inline-size: 1rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    bottom: 14px;
+    left: 50%;
+
+}
+
+.second-point{
+    block-size: 1rem;
+    inline-size: 1rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    bottom: 14px;
+    left: calc(50% - 2rem);
+
+}
+
+.button{
+    position: absolute;
+    bottom: 14px;
+    right: 25px;
+}
+
+.screen-safeArea{
+    background: #8DB9DC;
+    border-radius: .25rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
